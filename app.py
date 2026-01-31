@@ -221,7 +221,8 @@ def load_models():
     content = ContentRecommender(df_merged)
     collab = CollaborativeRecommender(
         model_path='saved_models/svd_model_optimized.pkl',
-        movies_path='data/raw/movies.csv'
+        movies_path='data/raw/movies.csv',
+        ratings_path='data/raw/ratings.csv'
     )
     return simple, content, collab
 
