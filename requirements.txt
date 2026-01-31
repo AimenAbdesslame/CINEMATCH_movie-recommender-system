@@ -1,0 +1,6 @@
+pandas
+numpy
+scikit-learn
+# scikit-surprise  # Requires Microsoft Visual C++ Build Tools to compile - uncomment when needed
+gradio
+joblib
